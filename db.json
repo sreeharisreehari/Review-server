@@ -1,0 +1,104 @@
+{
+  "video": [
+    {
+      "id": "21",
+      "caption": "spiderman",
+      "url": "https://i0.wp.com/thedisinsider.com/wp-content/uploads/2021/05/22EC9E80-F2EE-44EF-95FA-850A9D181C31.jpeg",
+      "embedlink": "https://www.youtube.com/embed/n></iframe>"
+    },
+    {
+      "id": "22",
+      "caption": "Vikram",
+      "url": "https://tamilmusicals.in/wp-content/uploads/2020/11/NXSigiaZ0W0-HD-1-1170x694.jpg",
+      "embedlink": "https://www.youtube.com/embed/NXSigiaZ0W0"
+    }
+  ],
+  "categories": [
+    {
+      "categoryname": "boom",
+      "allvideo": [
+        {
+          "id": "22",
+          "caption": "Vikram",
+          "url": "https://tamilmusicals.in/wp-content/uploads/2020/11/NXSigiaZ0W0-HD-1-1170x694.jpg",
+          "embedlink": "https://www.youtube.com/embed/NXSigiaZ0W0"
+        }
+      ],
+      "id": 2
+    },
+    {
+      "categoryname": "soom",
+      "allvideo": [
+        {
+          "id": "22",
+          "caption": "Vikram",
+          "url": "https://tamilmusicals.in/wp-content/uploads/2020/11/NXSigiaZ0W0-HD-1-1170x694.jpg",
+          "embedlink": "https://www.youtube.com/embed/NXSigiaZ0W0"
+        }
+      ],
+      "id": 3
+    }
+  ],
+  "history": [
+    {
+      "caption": "spiderman",
+      "embedlink": "https://www.youtube.com/embed/n></iframe>",
+      "timstamp": "08/11/2023, 11:41:57",
+      "id": 1
+    },
+    {
+      "caption": "lucifer trailer",
+      "embedlink": "www.youtube.com/embed/x1-Ya0NZQso",
+      "timstamp": "09/11/2023, 17:01:06",
+      "id": 2
+    },
+    {
+      "caption": "lucifer trailer",
+      "embedlink": "www.youtube.com/embed/x1-Ya0NZQso",
+      "timstamp": "09/11/2023, 19:00:06",
+      "id": 3
+    },
+    {
+      "caption": "lucifer trailer",
+      "embedlink": "www.youtube.com/embed/x1-Ya0NZQso",
+      "timstamp": "09/11/2023, 19:23:27",
+      "id": 4
+    },
+    {
+      "caption": "spiderman",
+      "embedlink": "https://www.youtube.com/embed/n></iframe>",
+      "timstamp": "09/11/2023, 19:44:16",
+      "id": 5
+    },
+    {
+      "caption": "Vikram",
+      "embedlink": "https://www.youtube.com/embed/NXSigiaZ0W0",
+      "timstamp": "09/11/2023, 19:49:07",
+      "id": 6
+    },
+    {
+      "caption": "Vikram",
+      "embedlink": "https://www.youtube.com/embed/NXSigiaZ0W0",
+      "timstamp": "09/11/2023, 19:55:34",
+      "id": 7
+    },
+    {
+      "caption": "Vikram",
+      "embedlink": "https://www.youtube.com/embed/NXSigiaZ0W0",
+      "timstamp": "09/11/2023, 19:55:46",
+      "id": 8
+    },
+    {
+      "caption": "Vikram",
+      "embedlink": "https://www.youtube.com/embed/NXSigiaZ0W0",
+      "timstamp": "09/11/2023, 19:56:10",
+      "id": 9
+    },
+    {
+      "caption": "Vikram",
+      "embedlink": "https://www.youtube.com/embed/NXSigiaZ0W0",
+      "timstamp": "09/11/2023, 19:57:44",
+      "id": 10
+    }
+  ]
+}
