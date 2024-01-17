@@ -1,28 +1,62 @@
 
-// import json-server library in index.js
-const jsonserver = require('json-server')
+const express = require('express');
+const jsonServer = require('json-server');
+const multer = require('multer');
 
-//create server using json-server library
 
-const mediaPlayerServer = jsonserver.create()
+const app = express();
 
-//create path to db.json file
 
-const router = jsonserver.router('db.json')
 
-//middlewares to convert js to json 
+app.use(express.json());
 
-const middleware = jsonserver.defaults()
 
-//connect /user middleware and router in server
- mediaPlayerServer.use(middleware)
- mediaPlayerServer.use(router)
+const storage = multer.diskStorage({
 
- //setup port for the server 
+  destination: (req, file, callback) => {
+    callback(null, 'uploads/'); 
+  },
+  filename: (req, file, callback) => {
 
- const port = 5000 || process.env.PORT
+    callback(null, file.fieldname +file.originalname);
+  }
+});
 
- //to listen server for resolving request
- mediaPlayerServer.listen(port,()=>{
-    console.log(`mediaplayerServer started at ${port} and ready fetch request`);
- })
+const upload = multer({ storage: storage });
+
+
+const server = jsonServer.create();
+
+const router = jsonServer.router('db.json');
+
+
+const middlewares = jsonServer.defaults();
+
+const port = 8000;
+
+
+server.use(middlewares);
+
+
+server.use(router);
+
+
+app.post('/reviews', upload.single('image'), (req, res) => {
+   
+  const review = req.body;
+  const image = req.file.filename;
+
+ 
+  router.db.get('reviews').push({ ...review, image }).write();
+
+
+  res.json({ ...review, image });
+});
+
+
+app.use('/', server);
+
+
+app.listen(port, () => {
+  console.log(`Server is successfully running at  port number ${port}`);
+});
